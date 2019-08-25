@@ -11,7 +11,7 @@ fileprivate var photoTaker: TakePhotoCamera!
 
 ```
 override func viewDidLoad() {
-super.viewDidLoad()
+  super.viewDidLoad()
   photoTaker = TakePhotoCamera(vc: self)
 }
 ```
