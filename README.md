@@ -3,7 +3,7 @@ Example take photo camera
 
 usage:
 
-1.- build variable
+## 1.- build variable
 
 ```
 fileprivate var photoTaker: TakePhotoCamera!
@@ -15,7 +15,7 @@ override func viewDidLoad() {
         photoTaker = TakePhotoCamera(vc: self)
 }
 ```
-2.- call for get results:
+## 2.- call for get results:
 
 ```
 photoTaker.takePhoto { [weak self] (image) in
